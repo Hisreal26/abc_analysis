@@ -5,4 +5,4 @@ import numpy as np
 import seaborn as sns
 
 df = pd.read_csv("cancer_probabilities.csv")
-st.write(df.head())
+st.write(df.head(5))
