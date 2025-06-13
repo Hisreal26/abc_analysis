@@ -7,3 +7,5 @@ import seaborn as sns
 df = pd.read_csv("cancer_probabilities.csv")
 st.write(df.head())
 
+df = pd.read_csv("cancer_probabilities.csv")
+st.write(df.tail())
